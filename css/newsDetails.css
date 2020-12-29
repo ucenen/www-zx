@@ -1,0 +1,263 @@
+
+#wrap button{
+	border: 0;
+	position: absolute;
+	padding: 5px 20px;
+	border-radius:20px;
+	color: #6A88AB;
+	background-color: rgba(255,255,255,0.7);
+	bottom: 195px;
+	left:20%;
+}
+
+.slide_nav{
+	z-index: 12;
+}
+
+#main{	
+	padding-bottom: 40px;
+	width: 100%;
+	background-color: #FAFAFC;
+}
+#main .cont{
+	width: 80%;
+	margin: 0 10%;
+	padding: 60px 20px;
+}
+#main .cont>div{
+	float: left;
+}
+#main .cont .list_1{
+	width: 70%;
+}
+#main .cont .list_1>div{
+	padding: 20px 30px;
+	padding-right: 50px;
+}
+#main .cont .list_1 div h1{
+	font-weight: bold;
+}
+#main .cont .list_1 div p,#main .cont .list_1 div span{
+	margin: 20px 0px;
+	background: rgba(0,0,0,0) !important;
+	font-family: "pic" !important;
+	text-indent: 0 !important;
+	text-align: left !important;
+}
+#main .cont .list_1 div p span{
+	background: rgba(0,0,0,0) !important;
+	font-family: "pic" !important;
+	text-indent: 0 !important;
+	text-align: left !important;
+}
+#main .cont .list_1 div img,#main .cont .list_2 div ul li img{
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+#main .cont .list_1 div .bot{
+	padding: 20px 0;
+}
+#main .cont .list_1 div .bot >div{
+	float: left;
+	width: 50%;
+	padding: 0;
+}
+#main .cont .list_1 div .bot .bot_left p{
+	margin: 10px 0;
+}
+#main .cont .list_1 div .bot .bot_left span{
+	display:inline-block;
+	margin: 0 !important;
+	width: 40px;
+	height: 10px;
+	background: #0F4EA4 !important;
+}
+#main .cont .list_1 div .bot .bot_right{
+	padding-top: 20px;
+	text-align: right;
+}
+#main .cont .list_1 div .bot .bot_right ul{
+	display: inline-block;
+}
+#main .cont .list_1 div .bot div ul li{
+	float: left;
+	margin-right: 5px;
+	line-height: 31px;
+}
+#main .cont .list_2{
+	width: 30%;
+}
+#main .cont .list_2 div{
+	padding: 20px 50px;
+	padding-right: 0;
+	border-left: solid 1px #CCCCCC;
+}
+#main .cont .list_2 div h1{
+	font-weight: bold;
+}
+#main .cont .list_2 div ul li{
+	padding: 10px;
+	margin: 20px 0;
+	cursor: pointer;
+}
+#main .cont .list_2 div ul li span{
+	display: block;
+	width: 40px;
+	height: 10px;
+	background: #0F4EA4;
+	margin-top: 10px;
+}
+#main .cont .list_2 div ul li p{
+	margin: 10px 0;
+}
+#main .cont .list_2 div ul li hr{
+	width: 40px;
+	color: black;
+	margin-left: 0;
+}
+
+#main .cont>ul{
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+}
+#main .cont>ul>li{
+	text-align: center;
+	padding: 5px 20px;
+	line-height: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+#main .cont>ul>li:nth-of-type(1){
+	text-align: right;
+}
+#main .cont>ul>li:nth-of-type(6){
+	text-align: left;
+}
+#main .cont>ul>li:nth-of-type(1),#main .cont>ul>li:nth-of-type(6){
+	flex: 8;
+	-moz-box-flex: 8;
+	-ms-flex: 8;
+	-webkit-flex: 8;
+	border: solid 1px #CCCCCC;
+	line-height: 25px;
+}
+#main .cont>ul>li:nth-of-type(2),#main .cont>ul>li:nth-of-type(5){
+	flex: 1;
+	-moz-box-flex: 1;
+	-ms-flex: 1;
+	-webkit-flex: 1;
+}
+#main .cont>ul>li:nth-of-type(3),#main .cont>ul>li:nth-of-type(4){
+	flex: 2;
+	-moz-box-flex: 2;
+	-ms-flex: 2;
+	-webkit-flex: 2;
+	border: solid 1px #CCCCCC;
+	margin: 0 10px;
+}
+#main .cont>ul>li h2{
+	font-weight: bold;
+}
+
+
+
+.nr{
+	display: none;
+}
+.n_show{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:1400px ) {
+	#main .cont{
+		width: 62%;
+		margin: 0 19%;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	#wrap button{
+		bottom: 20%;
+		left: 20%;
+	}
+	
+	
+}
+
+
+@media only screen and (max-width:1200px ) {
+	
+	#main .cont>ul>li:nth-of-type(2),#main .cont>ul>li:nth-of-type(5){
+		display: none;
+	}
+	#main .cont>ul>li{
+		padding: 5px 10px;
+	}
+}
+
+
+@media only screen and (max-width:790px){
+	#main .cont>ul>li:nth-of-type(3),#main .cont>ul>li:nth-of-type(4){
+		flex: 2;
+		-moz-box-flex: 2;
+		-ms-flex: 2;
+		-webkit-flex: 2;
+		border: solid 1px #CCCCCC;
+		margin: 0 5px;
+	}
+} 
+
+@media only screen and (max-width:768px) {
+	#main .cont .list_1 div .bot> div{
+		float: left;
+		width: 100%;
+		padding: 0;
+	}
+	#main .cont .list_1 div .bot> div>div{
+		text-align: left;
+	}
+	#main .cont .list_1 div .bot .bot_right ul{
+		display:block;
+	}
+}
+
+@media only screen  and (max-width: 767px) {
+	#main .cont>ul>li:nth-of-type(1),#main .cont>ul>li:nth-of-type(6){
+		display: none;
+	}
+}
+@media only screen and (max-width:640px ) {
+	#main .list>div ul li{
+		width: 100%;
+	}
+	#wrap button{
+		bottom: 15%;
+		left: 35%;
+	}
+	#main .cont .list_2{
+		display: none;
+	}
+	#main .cont .list_1{
+		width: 100%;
+	}
+	#main .cont .list_1>div{
+		border: 0;
+	}
+	#main .cont{
+		width: 95%;
+		margin: 0;
+		padding: 0 2.5%;
+	}
+}
+

@@ -1,0 +1,225 @@
+body{
+	overflow-x: hidden;
+}
+
+#wrap img{
+	width: 100%;
+	height: auto;
+}
+#wrap .bg  div{
+	color: white;
+	position: absolute;
+	right: 10%;
+}
+#wrap .bg  div h1{
+	font-weight: bold;
+}
+
+#main{
+	width: 100%;
+	background-color: #134993;
+	margin-top: -10px;
+}
+#main .shwhdd{
+	width: 100%;
+	padding: 40px 0;
+	background-image: url(../img/shyw/03.png);
+	background-size: 100% 100%;
+	background-position: center center;
+}
+#main .shwhdd div{
+	width: 80%;
+	margin: 0 auto;
+}
+#main .shwhdd img,#main .hzxy img{
+	width: 100%;
+	height: auto;
+}
+#main .shwhtd{
+	width: 100%;
+	background: white;
+	padding: 60px 0;
+}
+#main .hzxy{
+	width: 100%;
+}
+#main .shwhtd>div{
+	width: 80%;
+	margin: 0 10%;	
+}
+#main .shwhtd>div>span{
+	width: 80px;
+	height: 15px;
+	display: block;
+	background: #0F4EA4;
+}
+#main .shwhtd>div>h3{
+	font-weight: bold;
+	margin: 30px 0;
+}
+#main .shwhtd>div>ul{
+	width: 100%;
+}
+#main .hx{
+	background: url(../img/shyw/8.png)no-repeat center center;
+	background-size: 100% 100%;
+}
+#main .shwhtd>div>ul li{
+	float: left;
+	width: 33.3%;
+	text-align: center;
+}
+#main .shwhtd>div>ul li>div{
+	padding: 0 10px;
+}
+#main .shwhtd>div>ul li>div>div img{
+	max-width: 100%;
+	height: auto;
+}
+#main .shwhtd>div>ul li>div h3{
+	margin: 20px 0;
+	font-weight: bold;
+}
+#main .shwhtd>div>ul li>div .text_2{
+	text-align: left;
+	letter-spacing: 1px;
+}
+#main .text_b{
+	width: 100%;
+	height: 260px;
+	text-align: center;
+	background: url(../img/contactUs/10.png)no-repeat center center;
+	background-size: 100% 100%;
+	color: white;
+	padding-top: 130px;
+}
+
+#main .text_b h1 {
+	height: 70px;
+	line-height: 70px;
+}
+#main .text_b h1:nth-of-type(2){
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+
+
+
+.wx{
+	width: 100%;
+	background: #272A2F;
+}
+.wx .wx_content{
+	width: 80%;
+	margin: 0 10%;
+	padding: 60px 0;
+}
+.wx .wx_content>div{
+	float: left;
+}
+.wx .wx_content>.wx_left{
+	margin-top: 30px;
+}
+.wx .wx_content>.wx_left img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.wx .wx_content>.wx_right{
+	float: right;
+}
+.wx_right ul li{
+	margin: 0 20px;
+	float: left;
+	color: white;
+}
+.wx_right ul li:nth-of-type(1){
+	margin-left: 0;
+}
+.wx_right ul li:nth-of-type(2){
+	margin-right: 0;
+}
+.wx_right ul li span{
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+
+
+
+@media only screen and (min-width: 1400px) {
+	#main .bsc div,#main .zxly,#main .wx .wx_content,#main .shwhdd div{
+		width: 50%;
+		margin:0 25%;
+	}
+	#wrap .bg  div{
+		right: 19%;
+	}
+	#main .shwhtd>div{
+		width: 50%;
+		margin: 0 25%;	
+	}
+	#main .shwhtd>div>ul li>div{
+		padding: 0 20px;
+	}
+}
+
+
+@media only screen and (max-width:1200px ) {
+	
+}
+
+@media only screen and (max-width:950px ) {
+	.wx .wx_content>div{
+		width: 100%;
+		text-align: center;
+	}
+	.wx .wx_content>.wx_right ul li{
+		float: none;
+		display: inline-block;
+	}
+	.wx .wx_content>.wx_right ul{
+		text-align: center;
+	}
+}
+
+
+
+@media only screen and (max-width:767px) {
+	
+	
+}
+@media only screen and (max-width:640px ) {
+	
+	.led_top{
+		width: 95%;
+		margin: 0 2.5%;
+	}
+	footer h1,footer p{
+		text-align: center;
+	}
+	.led_bottom div{
+		top: 10%;
+	}
+	
+	#main .zxly .form>div>div{
+		width: 100%;
+		margin-top: 10px;
+	}
+	#main .zxly .form>.w_b>div label,#main .zxly .form>.w_b>div span,#main .zxly .form>.w_b>div button{
+		width: 49%;
+		float: left;
+	}
+	#main .zxly .form>.w_b>div span,#main .zxly .form>.w_b>div button:nth-of-type(2){
+		float: right;
+	}	
+	#wrap .bg  div{
+		color: white;
+		position: absolute;
+		right: 10%;
+	}
+}
+

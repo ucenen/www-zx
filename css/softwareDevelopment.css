@@ -1,0 +1,146 @@
+body{
+	overflow-x: hidden;
+}
+
+#wrap>.bg{
+	background-color: rgba(0,0,0,0);
+}
+/*#wrap>.bg>div{
+	position: absolute;
+	left: 10%;
+	color: white;
+}
+#wrap>.bg>div h1{
+	font-weight: bold;
+}*/
+#wrap>.bg>div>img{
+	width: 30%;
+	margin: 0 35%;
+}
+#main{
+	margin-top: -10px;
+	width: 100%;
+	background-color: #134993;
+	/*border-bottom: solid 1px #60A5F4;*/
+}
+#main .content{
+	color: white;
+	width: 80%;
+	margin: 0px 10%;
+	padding: 20px 0;
+}
+#main .content h1{
+	font-weight: bold;
+	margin: 20px 0;
+	text-align: center;
+}
+#main .content h2{
+	font-weight: bold;
+	text-align: left;
+}
+#main .content h1 span{
+	display: inline-block;
+	padding: 3px 3px;
+	border-bottom: white solid 2px;
+	border-top: white solid 2px;
+}
+#main .content>div{
+	position: relative;
+	width: 100%;
+}
+#main .content>div>button{
+	position: absolute;
+	left: 10%;
+	bottom: calc(25% - 26px);
+	height: 50px;
+	width: 128px;
+	border: solid 2px white;
+	background: rgba(0,0,0,0);
+	border-radius: 30px;
+	color: white;
+}
+#main .content p{
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+#main .content img{
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#main .content h3{
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+
+
+@media only screen and (min-width:1400px ) {
+	#main .content{
+		width: 62%;
+		margin: 0 19%;
+	}
+	#wrap>.bg>div{
+		left: 19%;
+	}
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+	
+}
+
+
+@media only screen and (max-width:1200px ) {
+	
+}
+
+
+@media only screen and (max-width:767px) {	
+	#main .content>div>button{
+		position: absolute;
+		left: 10%;
+		bottom: calc(25% - 16px);
+		height: 30px;
+		width: 80px;
+		border: solid 2px white;
+		background: rgba(0,0,0,0);
+		border-radius: 30px;
+		color: white;
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width:640px ) {
+	
+	.led_top{
+		width: 95%;
+		margin: 0 2.5%;
+	}
+	h1,p{
+		text-align: left;
+	}
+	.led_bottom div{
+		top: 10%;
+	}
+	#wrap>.bg>div{
+		left: 10%;
+	}
+	#main .content>div>button{
+		position: absolute;
+		left: 10%;
+		bottom: calc(25% - 6px);
+		height: 25px;
+		width: 80px;
+		border: solid 2px white;
+		background: rgba(0,0,0,0);
+		border-radius: 30px;
+		color: white;
+		font-size: 12px;
+	}
+}
+

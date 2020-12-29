@@ -1,0 +1,102 @@
+body{
+	overflow-x: hidden;
+}
+#wrap>img{
+	width: 100%;
+	height: auto;
+}
+#wrap>.bg{
+	background-color: rgba(0,0,0,0);
+}
+
+#main{
+	margin-top: -10px;
+	width: 100%;
+	background-color: #F2F2F3;
+	/*border-bottom: solid 1px #60A5F4;*/
+}
+#main .content{
+	color: #4B4B4B;
+	width: 80%;
+	margin: 0px 10%;
+	padding: 20px 0;
+}
+#main .content h2{
+	font-weight: bold;
+	text-align: left;
+}
+#main .content>div> span:nth-of-type(1){
+	width: 115px;
+	margin-top: 30px;
+	height: 10px;
+	display: block;
+	background: #005BC4;
+	margin-bottom: 20px;
+}
+#main .content>div> span:nth-of-type(2){
+	width: 115px;
+	height: 3px;
+	display: block;
+	background: #005BC4;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+#main .content p{
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+#main .content>div{
+	position: relative;
+}
+#main .content>div img{
+	position: absolute;
+	right: 5px;
+	top: 0;
+	cursor: pointer;
+}
+#main .content> img{
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+
+
+@media only screen and (min-width:1400px ) {
+	#main .content{
+		width: 62%;
+		margin: 0 19%;
+	}
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+	
+}
+
+
+@media only screen and (max-width:1200px ) {
+	
+}
+
+
+@media only screen and (max-width:767px) {
+	
+}
+@media only screen and (max-width:640px ) {
+	#main .content>div img{
+		width: 30%;
+		position: absolute;
+		right: 5px;
+		top: 0;
+		cursor: pointer;
+	}
+}
+

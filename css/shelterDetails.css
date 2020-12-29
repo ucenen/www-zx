@@ -1,0 +1,235 @@
+
+html, body{
+	overflow-x: hidden;
+}
+
+#main{
+	width: 100%;
+	background-color: white;
+	/*border-bottom: solid 1px #60A5F4;*/
+	padding-top: 80px;
+}
+#main .content{
+	width: 100%;
+	background-color: white;
+}
+#main .content .top{
+	width: 80%;
+	margin:0 10%;
+	padding: 40px 0;
+}
+#main .content .top>div{
+	float: left;
+	width: 50%;
+}
+#main .content .top .top_left>div{
+	padding: 0 50px 0 0;
+}
+#main .content .top .top_left>div h1,#main .content .top .top_left>div h4{
+	font-weight: bold;
+}
+#main .content .top .top_left>div h4{
+	margin: 20px 0 0 0;
+}
+#main .content .top .top_left>div h1:nth-of-type(2){
+	margin-bottom: 20px;
+}
+
+#main .content .top .top_right>div{
+	width: 100%;
+}
+#main .content .top .top_right>div img{
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#main .content .bottom{
+	width: 100%;
+	background-color: #FAFAFA;
+	padding-top: 20px;
+}
+#main .content .bottom>div{
+	width: 80%;
+	margin: 30px 10%;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+#main .content .bottom>div h1{
+	font-weight: bold;
+	text-align: center;
+}
+#main .content .bottom>div ul li{
+	float: left;
+	width: 33.3%;
+}
+#main .content .bottom>div ul li a{
+	display: block;
+	padding: 10px 10px;
+}
+#main .content .bottom>div ul li a img{
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+#main .content .bottom>div ul li p{
+	text-align: center;
+}
+
+.more{
+	width: 80%;
+	margin: 40px 10%;
+}
+.more ul{
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+}
+.more ul li{
+	text-align: center;
+	padding: 10px 5px;
+	cursor: pointer;
+}
+.more ul li h4{
+	font-weight: bold;
+}
+.more ul li:nth-of-type(1),.more ul li:nth-of-type(7){
+	flex: 6;
+	-moz-box-flex: 6;
+	-ms-flex: 6;
+	-webkit-flex: 6;
+	border: solid 1px #CCCCCC;
+}
+.more ul li:nth-of-type(2),.more ul li:nth-of-type(6){
+	flex: 1;
+	-moz-box-flex: 1;
+	-ms-flex: 1;
+	-webkit-flex: 1;
+}
+.more ul li:nth-of-type(3),.more ul li:nth-of-type(5){
+	flex: 2;
+	-moz-box-flex: 2;
+	-ms-flex: 2;
+	-webkit-flex: 2;
+	border: solid 1px #CCCCCC;
+}
+.more ul li:nth-of-type(4){
+	margin:0 5px;
+	flex: 3;
+	-moz-box-flex: 3;
+	-ms-flex: 3;
+	-webkit-flex: 3;
+	border: solid 1px #CCCCCC;
+}
+
+
+.led_bottom{
+	position: relative;
+	width: 100%;
+}
+.led_bottom> img{
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.led_bottom  button{
+	position: absolute;
+	width: 230px;
+	bottom: calc(30% - 26px);
+	border: #1A1B1D;
+	border-radius: 30px;
+	left: calc(50% - 116px);
+	left: -moz-calc(50% - 116px);
+	left: -webkit-calc(50% - 116px);
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+   	color: white;
+   	background: rgba(138,147,164,0.6);
+}
+
+
+@media only screen and (min-width:1400px ) {
+	#main .content .top,#main .content .bottom>div{
+		width: 62%;
+		margin: 0 19%;
+	}
+	.more{
+		width: 62%;
+		margin: 40px 19%;
+	}
+}
+
+
+@media only screen and (max-width: 1400px) {
+	#main{
+		padding-top: 40px;
+	}
+}
+
+
+@media only screen and (max-width:1200px ) {
+	
+}
+
+
+@media only screen and (max-width:767px) {
+	
+	#main .content .top>div{
+		float: left;
+		width: 100%;
+	}
+	#main .content .top .top_right{
+		margin-top: 20px !important;
+	}
+	#main .content .top .top_left p,#main .content .top .top_left h1{
+		text-align: left;
+	}
+	#main .content .bottom>div ul li{
+		width: 50%;
+	}
+	.more ul li:nth-of-type(2),.more ul li:nth-of-type(6){
+		display: none;
+	}
+	.more ul li:nth-of-type(4){
+		margin: 0 2.5px;
+	}
+	.more ul li:nth-of-type(3),.more ul li:nth-of-type(5){
+		margin: 0 2.5px;
+	}
+	.led_bottom div p button{
+		margin-top: 10px;
+	}
+	
+}
+@media only screen and (max-width:640px ) {
+	
+	.led_top,.middle{
+		width: 100%;
+	}
+	h1,p{
+		text-align: center;
+	}
+	
+	.more ul li:nth-of-type(1),.more ul li:nth-of-type(7){
+		display: none;
+	}
+	.led_bottom  button{		
+		width: 100px;
+		bottom: calc(30% - 16px);
+		bottom: -moz-calc(30% - 16px);
+		bottom: -webkit-calc(30% - 16px);
+		border-radius: 30px;
+		left: calc(50% - 51px);
+		left: -moz-calc(50% - 51px);
+		left: -webkit-calc(50% - 51px);
+		height: 30px;
+		line-height: 30px;
+		font-size: 12px !important;
+	}
+}

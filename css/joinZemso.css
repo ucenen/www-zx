@@ -1,0 +1,280 @@
+
+#wrap button{
+	border: 0;
+	position: absolute;
+	padding: 5px 20px;
+	border-radius:20px;
+	color: #6A88AB;
+	background-color: rgba(255,255,255,0.7);
+	bottom: 195px;
+	left:20%;
+}
+
+.slide_nav{
+	z-index: 12;
+}
+
+#main{
+	
+	width: 100%;
+	background-color: #FFFFFF;
+}
+#main .content{
+	width: 100%;
+	height: 600px;
+	background-color: #134993;
+}
+
+.content1{
+	position: relative;
+	z-index: 10;
+	width: 80%;
+	margin:0 10%;
+	margin-top: -775px;
+}
+.content1 > div{
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.content1 > div > h1{
+	text-align: center;
+	/*color: #F2F2F3;*/
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.content1 > div > div > div{
+	width: 50%;
+	float: left;
+	background-color: #F2F2F3;
+}
+
+.content1 > div > div > div > div span{
+	display: block;
+	width: 50px;
+	height: 10px;
+	background: #0F4EA4;
+	margin-top: 40px;
+}
+.content1 > div > div > div > div h1{
+	font-weight: bold;
+	margin-top: 10px;
+}
+.content1 > div > div > .img{
+	text-align: center;
+}
+.content1 > div > div > .img .img1{
+	padding:0 0 !important;
+	height: 100%;
+}
+hr{
+	width: 48px;
+	color: black;
+	margin: 20px 0;
+	margin-left: 0;
+}
+.content1 > div > div > div img{
+	width: 100%;
+	height:100%;
+	max-width: 100%;
+	max-height: 100%;
+}
+.content1 > div > .f{
+	color: black;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.content1 > div > .d > div{
+	width: 100%;
+	height: 1000px !important;
+	position: relative;
+}
+.content1 > div > .d > div >div{
+	padding: 0 100px;
+}
+.content1 > div > .d > ul{
+	padding: 0 100px;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	z-index: 11;
+	position: relative;
+}
+.content1 > div > .d > div >div h4{
+	font-weight: bold;
+	margin-top: 40px;
+}
+.content1 > div > .d > div >div .ind{
+	text-indent: 1.5em;
+}
+.content1 > div > div > div > div{
+	padding: 0px 60px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.zw{
+	display: none;
+}
+.zw_show{
+	display: block;
+}
+.content1 > div > .d > div >div.lianxi{
+	position: absolute;
+	height: 60px;
+	bottom: 110px;
+}
+.lianxi ul{
+	height: 100%;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	align-content: center;
+	justify-content: center;
+}
+.lianxi ul li{
+	flex: 1;
+	-ms-flex: 1;
+	-webkit-flex: 1;
+	text-align: center;
+	height: 100%;
+	line-height: 60px;
+	border: solid 1px #CCCCCC;
+	background-color: white;
+	min-width: 221px;
+}
+.content1 > div > .d > ul li{
+	flex: 2;
+	-moz-box-flex: 2;
+	-ms-flex: 2;
+	-webkit-flex: 2;
+	padding: 20px 20px;
+	border: solid 1px #0077FF;
+	text-align: center;
+	font-weight: bold;
+	background-color: white;
+	cursor: pointer;
+}
+.content1 > div > .d > ul li:nth-of-type(2){
+	border-left: 0;
+	border-right: 0;
+}
+.content1 > div > .d > ul .ul_active{
+	background-color: #134993;
+	color:white;
+}
+.content1 > div > .d > ul .ul_active1{
+	background-color: #134993;
+	color:white;
+}
+
+
+@media only screen and (min-width:1400px ) {
+	.content1{
+		width: 62%;
+		margin:0 19%;
+		margin-top: -775px;
+	}
+	.content1 > div > .d > ul, .content1 > div > .d > div >div{
+		padding: 0 200px;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	
+	#main .content .al_s > div > div{
+		margin:10px 5px;
+	}
+	#wrap button{
+		bottom: 25%;
+		left: 20%;
+	}
+	.content1{
+		margin-top: -700px;
+	}
+	
+}
+
+
+@media only screen and (max-width:1200px ) {
+	.content1 > div > .d > ul,.content1 > div > .d > div >div{
+		padding: 0 70px;
+	}
+	
+}
+@media only screen and (max-width:992px ) {
+	.lianxi ul{
+		display:  block;		
+	}
+	.lianxi{
+		position: initial;
+		margin: 40px 0;
+	}
+	.lianxi ul li{
+		width: auto;
+		margin-top: 5px;
+	}
+	
+}
+
+
+
+@media only screen and (max-width:767px) {
+	.content1 > div > .d > div{
+		height: 1100px !important;
+	}
+	.content1{
+		margin-top: -670px;
+	}
+	.content1 > div > div > div{
+		width: 100%;
+		float: none;
+		height: auto !important;
+		background-color: #F2F2F3;
+	}
+	.content1 > div > div > div > div{
+		padding: 40px 20px;
+	}
+	.content1 > div > div > div >  img{
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+		max-height: 100%;
+	}
+	.content1 > div > .d > ul,.content1 > div > .d > div >div{
+		padding: 0 40px;
+	}
+	.content1 > div > div > .img .img1{
+		padding-top: 10px !important;
+		padding-right: 20px !important;
+	}
+}
+@media only screen and (max-width:640px ) {
+	
+	.led_top{
+		width: 95%;
+		margin: 0 2.5%;
+	}
+	.led_bottom div{
+		top: 10%;
+	}
+	#wrap button{
+		bottom: 15%;
+	}
+	.content1{
+		width: 95%;
+		padding: 0 2.5%;
+		margin: 0 0;
+		margin-top: -550px;
+	}
+	.content1 > div > .d > ul{
+		padding: 0px 0px;
+	}
+	.content1 > div > .d > div >div{
+		padding: 0px 10px;
+	}
+	.content1 > div > .d > ul li{
+		padding: 20px 10px;
+	}
+	
+}
+

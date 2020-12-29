@@ -1,0 +1,146 @@
+body{
+	overflow-x: hidden;
+}
+
+#wrap .bg{
+	text-align: center;
+}
+#wrap .bg img{
+	width: 55%;
+	height: auto;
+	max-width: 62%;
+	max-height: 100%;
+}
+
+
+
+
+#main{
+	width: 100%;
+	background-color: #134993;
+	margin-top: -10px;
+}
+#main .content{
+	width: 80%;
+	margin: 0 10%;
+	padding: 60px 0;
+	color: white;
+}
+#main .content h1{
+	margin: 20px 0;
+	font-weight: bold;
+	text-align: center;
+}
+#main .content p:nth-of-type(1){
+	font-weight: bold;
+}
+#main .content p{
+	letter-spacing: 1px;
+	margin: 20px 0;
+}
+#main .content>div{
+	width: 100%;
+}
+#main .content>div>div{
+	width: 49%;
+	float: left;
+}
+#main .content>div>div:nth-of-type(2){
+	float: right;
+}
+#main .content img{
+	margin: 10px 0;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+@media only screen and (min-width:1400px ) {
+	#main .content{
+		width: 62%;
+		margin: 0 19%;
+	}
+	#wrap .bg img{
+		right: 19%;
+	}
+}
+
+
+@media only screen and (max-width: 1400px) {
+	header{
+		height:70px;
+	}
+	.nav_btn{
+		width:70px;
+	}
+	.center{
+		padding:4px 20px;
+	}
+	.slide_nav{
+		width: 300px;
+	}
+	.slide_nav .n_logo{
+		padding-left: 45px;
+	}
+}
+
+
+@media only screen and (max-width:1200px ) {
+	.right{
+		display: none;
+	}
+}
+
+
+
+
+@media only screen and (max-width:767px) {
+	.nav_btn span {
+		width: 40px;
+		margin-left: -20px;
+	}
+	.nav_btn span:after {
+		width: 40px;
+		top: 11px;
+	}
+	.nav_btn span:before {
+		width: 40px;
+		top: -11px;
+	}
+	.nav_btn:hover span:after {
+		transition: transform 0s ease-out;
+		transform: translateX(0px);
+	}
+	.nav_btn:hover span:before {
+		transition: transform 0s ease-out;
+		transform: translateX(0px);
+	}
+	
+}
+@media only screen and (max-width:640px ) {
+	.nav_btn {
+		width: 70px;
+		height: 70px;
+	}
+	.slide_nav{
+		left: -100%;
+		width: 100%;
+	}
+	.led_top{
+		width: 95%;
+		margin: 0 2.5%;
+	}
+	footer h1,footer p{
+		text-align: center;
+	}
+	.led_bottom div{
+		top: 10%;
+	}
+	#main .content>div>div{
+		width: 100%;
+		float: none;
+	}
+	
+}
+

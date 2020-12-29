@@ -1,0 +1,320 @@
+body{
+	overflow-x: hidden;
+}
+
+#wrap img{
+	width: 100%;
+	height: auto;
+}
+#wrap .bg  div{
+	color: white;
+	position: absolute;
+	right: 10%;
+}
+#wrap .bg  div h1{
+	font-weight: bold;
+}
+
+#main{
+	width: 100%;
+	background-color: #134993;
+	margin-top: -10px;
+}
+#main .shwhtd{
+	width: 100%;
+	background: white;
+	padding: 60px 0;
+}
+#main .shwhtd>div{
+	width: 80%;
+	margin: 0 10%;	
+}
+#main .shwhtd>div>span{
+	width: 80px;
+	height: 15px;
+	display: block;
+	background: #0F4EA4;
+}
+#main .shwhtd>div>h3{
+	font-weight: bold;
+	margin: 30px 0;
+}
+#main .shwhtd>div>ul{
+	width: 100%;
+}
+#main .shwhtd>div>ul li{
+	float: left;
+	width: 33.3%;
+	text-align: center;
+}
+#main .shwhtd>div>ul li>div{
+	padding: 0 10px;
+}
+#main .shwhtd>div>ul li>div>div img{
+	max-width: 100%;
+	height: auto;
+}
+#main .shwhtd>div>ul li>div h3{
+	margin: 20px 0;
+	font-weight: bold;
+}
+#main .shwhtd>div>ul li>div .text_2{
+	text-align: left;
+	letter-spacing: 1px;
+}
+#main .text_b{
+	width: 100%;
+	height: 260px;
+	text-align: center;
+	background: url(../img/contactUs/10.png)no-repeat center center;
+	background-size: 100% 100%;
+	color: white;
+	padding-top: 130px;
+}
+
+#main .text_b h1 {
+	height: 70px;
+	line-height: 70px;
+}
+#main .text_b h1:nth-of-type(2){
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+#main .address{
+	width: 80%;
+	color: white;
+	margin: 0 10%;
+	padding: 60px 0;
+}
+#main .address h1{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#main .address img{
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+	margin: 20px auto;
+	display: block;
+}
+#main .bsc{
+	width: 100%;
+	background: #FAFAFC;
+	padding: 60px 0;
+}
+#main .bsc div{
+	width: 80%;
+	margin: 0 10%;
+}
+#main .bsc div h1{
+	font-weight: bold;
+	margin: 10px 0;
+}
+#main .bsc div p{
+	margin: 25px 0;
+}
+#main .bsc div p span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: #134993;
+	border-radius: 20px;
+	margin-right: 10px;
+	margin-bottom: 1px;
+}
+
+#main .zxly{
+	width: 80%;
+	margin: 0 10%;
+	padding: 60px 0;
+	color: white;
+}
+#main .zxly>h1{
+	margin-bottom: 20px;
+}
+#main .zxly .form>div{
+	width: 100%;
+	margin-bottom: 10px;
+}
+#main .zxly .form>div>div{
+	display: inline-block;
+	height: 48px;
+	line-height: 48px;
+	background: white;
+	color: black;
+	width: 49%;
+	float: left;
+}
+
+#main .zxly .form>div>.c{
+	display: inline-block;
+	height: 185px;
+	background: white;
+	color: black;
+	width: 100%;
+	line-height: normal;
+}
+#main .zxly .form>div>.c label{
+	float: left;
+}
+#main .zxly .form>div>div:nth-of-type(2){
+	float: right;
+}
+#main .zxly .form>div>div>label{
+	margin-left: 10px;
+}
+#main .zxly .form>div>.w{
+	width: 100%;
+}
+#main .zxly .form>div>div>input{
+	height: 100%;
+	border: 0;
+}
+#main .zxly .form>div>div>textarea{
+	height: 100%;
+	border: 0;
+}
+
+#main .zxly .form>.w_b>div{
+	background: #134993;
+}
+#main .zxly .form>.w_b>div:nth-of-type(2){
+	text-align: right;
+}
+#main .zxly .form>.w_b>div label,#main .zxly .form>.w_b>div span{
+	display: inline-block;
+	height: 100%;
+	width: 30%;
+	text-align: center;
+	background: white;
+	margin-left: 0;
+}
+#main .zxly .form>.w_b>div span{
+	background: #F2F2F3;
+}
+#main .zxly .form>.w_b>div button{
+	width: 40%;
+	height: 100%;
+	background: white;
+	border: 0;
+}
+
+.wx{
+	width: 100%;
+	background: #272A2F;
+}
+.wx .wx_content{
+	width: 80%;
+	margin: 0 10%;
+	padding: 60px 0;
+}
+.wx .wx_content>div{
+	float: left;
+}
+.wx .wx_content>.wx_left{
+	margin-top: 30px;
+}
+.wx .wx_content>.wx_left img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.wx .wx_content>.wx_right{
+	float: right;
+}
+.wx_right ul li{
+	margin: 0 20px;
+	float: left;
+	color: white;
+}
+.wx_right ul li:nth-of-type(1){
+	margin-left: 0;
+}
+.wx_right ul li:nth-of-type(2){
+	margin-right: 0;
+}
+.wx_right ul li span{
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+
+
+
+@media only screen and (min-width: 1400px) {
+	#main .address,#main .bsc div,#main .zxly,#main .wx .wx_content{
+		width: 50%;
+		margin:0 25%;
+	}
+	#wrap .bg  div{
+		right: 19%;
+	}
+	#main .shwhtd>div{
+		width: 50%;
+		margin: 0 25%;	
+	}
+	#main .shwhtd>div>ul li>div{
+		padding: 0 20px;
+	}
+}
+
+
+@media only screen and (max-width:1200px ) {
+	
+}
+
+@media only screen and (max-width:950px ) {
+	.wx .wx_content>div{
+		width: 100%;
+		text-align: center;
+	}
+	.wx .wx_content>.wx_right ul li{
+		float: none;
+		display: inline-block;
+	}
+	.wx .wx_content>.wx_right ul{
+		text-align: center;
+	}
+}
+
+
+
+@media only screen and (max-width:767px) {
+	
+	
+}
+@media only screen and (max-width:640px ) {
+	
+	.led_top{
+		width: 95%;
+		margin: 0 2.5%;
+	}
+	footer h1,footer p{
+		text-align: center;
+	}
+	.led_bottom div{
+		top: 10%;
+	}
+	
+	#main .zxly .form>div>div{
+		width: 100%;
+		margin-top: 10px;
+	}
+	#main .zxly .form>.w_b>div label,#main .zxly .form>.w_b>div span,#main .zxly .form>.w_b>div button{
+		width: 49%;
+		float: left;
+	}
+	#main .zxly .form>.w_b>div span,#main .zxly .form>.w_b>div button:nth-of-type(2){
+		float: right;
+	}	
+	#wrap .bg  div{
+		color: white;
+		position: absolute;
+		right: 10%;
+	}
+}
+

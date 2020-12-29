@@ -1,0 +1,111 @@
+*{
+    padding: 0;margin: 0;
+}
+.active{
+    background: #134993;
+    color:#fff;
+}
+.banner{
+    width: 1200px;
+    position: relative;
+    margin: auto auto auto auto;
+    margin-top: 20px;
+}
+.header{
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.content{
+    margin:  0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content img{
+    width: 100%;
+    height: 100%;
+}
+.btnn{
+    float: right;
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+.btnn ul li{
+    margin-top: 10px;;
+}
+.footer{
+width: auto;
+height: auto;
+margin-top: 20px;
+}
+.footer ul{
+width:400px;
+height: 30px;
+margin-left:33%;
+margin-right: 30%;
+}
+.footer ul li{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 20px;
+    border:  1px solid gray;
+    text-align: center;
+}
+.footer ul li:nth-child(5){
+    width: 60px;
+    height: 20px;
+    text-align: center;
+}
+.footer ul li:nth-child(6){
+    width: 60px;
+    height: 20px;
+    text-align: center;
+}
+.footer ul li:nth-child(7){
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    border:  none
+}
+
+@media only screen and (min-width:1400px ) {
+    .content{
+        width: 100%;
+        height: 100%;
+    }	
+}
+/* @media only screen and (min-width:2160px ) {
+    .content{
+        width: 100%;
+        height: 100%;
+    }	
+} */
+@media only screen and (max-width: 1400px) {
+	.content{
+        width: 1024px;
+         height:737px;
+    }	
+}
+@media only screen and (max-width:1200px ) {	
+}
+@media only screen and (max-width:768px) {
+	#main .list>div ul li{
+		width: 50%;
+	}	
+}
+@media only screen and (max-width:640px ) {
+	#main .list{
+		width: 100%;
+		margin: 0;
+	}
+	#main .list>div ul li{
+		width: 100%;
+	}
+	#wrap button{
+		bottom: 15%;
+		left: 35%;
+	}
+}
